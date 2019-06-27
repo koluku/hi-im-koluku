@@ -23,13 +23,11 @@ export default {
   /*
    ** Global CSS
    */
-  css: [
-    'normalize.css'
-  ],
+  css: ['normalize.css'],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ['./plugins/fontawesome.js'],
   /*
    ** Nuxt.js modules
    */
